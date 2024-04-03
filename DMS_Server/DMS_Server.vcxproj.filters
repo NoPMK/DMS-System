@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Precompiled.cpp" />
+    <ClCompile Include="FileOperations.cpp">
+      <Filter>BLL\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FolderOperations.cpp">
+      <Filter>BLL\Folders</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLMain.cpp">
+      <Filter>COM\DLL</Filter>
+    </ClCompile>
+    <ClCompile Include="OperationsBase.cpp">
+      <Filter>BLL\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DMS_Server_i.c">
+      <Filter>Shared</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Precompiled.h" />
+    <ClInclude Include="FileOperations.h">
+      <Filter>BLL\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FolderOperations.h">
+      <Filter>BLL\Folders</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerStateManager.h">
+      <Filter>COM\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="OperationClassFactory.h">
+      <Filter>COM\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="OperationsBase.h">
+      <Filter>BLL\Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Exports.def">
+      <Filter>COM\Exports</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="BLL">
+      <UniqueIdentifier>{74eb51ed-dfcb-4e91-be63-4bc84c1998b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM">
+      <UniqueIdentifier>{7954645b-eec6-438c-90fc-78edda4cf808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BLL\Files">
+      <UniqueIdentifier>{3750d4f6-5284-4e13-8cea-addef5b1afd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BLL\Folders">
+      <UniqueIdentifier>{6368b2e6-6ff2-4c2c-b52a-486adea9edeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Exports">
+      <UniqueIdentifier>{524ee269-be5f-4a04-bf06-146ab937e8cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\DLL">
+      <UniqueIdentifier>{4346fbbb-4e96-4df6-bbde-5d2a5f4f30f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Managers">
+      <UniqueIdentifier>{1ca54356-bc2a-4a57-86c7-87478f532bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Factories">
+      <UniqueIdentifier>{0816b77d-da99-4585-a5e6-4c6bcc2f57f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{c9dcecb4-3f89-485e-ac9f-12052104f445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BLL\Base">
+      <UniqueIdentifier>{6934e018-bc38-4082-92e5-86db2d23052b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="..\Shared\DMS_Server.idl">
+      <Filter>Shared</Filter>
+    </Midl>
+  </ItemGroup>
+</Project>

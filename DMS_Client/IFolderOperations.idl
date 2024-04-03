@@ -1,0 +1,21 @@
+import "oaidl.idl";
+import "ocidl.idl";
+
+[uuid(87e9a869-2351-4205-b9b6-36f3027448fc), version(1.0)]
+library FolderOperationsLibrary
+{
+    importlib("stdole2.tlb");
+
+    [
+        uuid(eee7ccd4-b167-497f-aee6-aa14cf094f10),
+            version(1.0),
+            pointer_default(unique)
+    ]
+        interface IFolderOperations : IUnknown {
+        HRESULT CreateFolder([in] BSTR filePath);
+        HRESULT DeleteFolder([in] BSTR filePath);
+        HRESULT MoveFolder([in] BSTR originalFilePath, [in] BSTR newFilePath);
+        HRESULT RenameFolder([in] BSTR originalFilePath, [in] BSTR newFolderName);
+        HRESULT OpenFolder([in] BSTR filePath);
+    };
+};

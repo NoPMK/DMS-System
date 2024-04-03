@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="BLL">
+      <UniqueIdentifier>{c172af3d-9632-4aa0-9243-5ed3d1b4de2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM">
+      <UniqueIdentifier>{8e7f15c5-0e5e-4bf7-8b71-61f45a20878e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BLL\Files">
+      <UniqueIdentifier>{ab69e593-099c-40f8-9115-069f2334e620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BLL\Folders">
+      <UniqueIdentifier>{9c74c064-7bd2-4834-91c8-c2b7a96f26d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BLL\Folders\headers">
+      <UniqueIdentifier>{3b25034c-84b0-4e28-8fa5-dbfe40d47654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Factories">
+      <UniqueIdentifier>{f9470222-f0f1-4731-b959-1beedfb27be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Managers">
+      <UniqueIdentifier>{f3c953c5-0954-40b4-90fb-e8f050792aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\DllMain">
+      <UniqueIdentifier>{cbb25ecf-85c1-4053-9d27-8645e00919d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BLL\Files\Headers">
+      <UniqueIdentifier>{9931f67b-d4a0-41cb-b964-e7a61b42d013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM\Definitions">
+      <UniqueIdentifier>{b38355a8-5932-4f22-82da-217a5769c285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{a9013902-0554-42b0-a32a-8f743930c1e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Files">
+      <UniqueIdentifier>{c2cdf892-60e9-4235-85d6-739c8c30950f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Folders">
+      <UniqueIdentifier>{e593c2c5-0d50-470a-96a0-2988e0283324}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FileOperations.h">
+      <Filter>BLL\Files\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FolderOperations.h">
+      <Filter>BLL\Folders\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerStateManager.h">
+      <Filter>COM\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Precompiled.h" />
+    <ClInclude Include="OperationClassFactory.h">
+      <Filter>COM\Factories</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FileOperations.cpp">
+      <Filter>BLL\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FolderOperations.cpp">
+      <Filter>BLL\Folders</Filter>
+    </ClCompile>
+    <ClCompile Include="Precompiled.cpp" />
+    <ClCompile Include="..\Shared\IFileOperations_i.c">
+      <Filter>Shared\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IFolderOperations_i.c">
+      <Filter>Shared\Folders</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLMain.cpp">
+      <Filter>COM\DllMain</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Exports.def">
+      <Filter>COM\Definitions</Filter>
+    </None>
+    <None Include="..\Shared\IFileOperations.h">
+      <Filter>Shared\Files</Filter>
+    </None>
+    <None Include="IFolderOperations_h.h">
+      <Filter>Shared\Folders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="..\Shared\IFileOperations.idl">
+      <Filter>Shared\Files</Filter>
+    </Midl>
+    <Midl Include="IFolderOperations.idl">
+      <Filter>Shared\Folders</Filter>
+    </Midl>
+  </ItemGroup>
+</Project>

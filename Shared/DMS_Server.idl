@@ -1,0 +1,71 @@
+import "oaidl.idl";
+import "ocidl.idl";
+
+[uuid(085fac0b-c7ad-46e8-ab30-9f12053231b9), version(1.0)]
+library DMSLibrary
+{
+	importlib("stdole2.tlb");
+
+
+	[uuid(99e1fbad-adab-49cf-abb1-b147b667ab86),
+		version(1.0),
+		pointer_default(unique)
+	]
+		interface IOperationsEvents : IUnknown {
+		HRESULT OnFileCreated([in] BSTR filePath);
+		HRESULT OnFileDeleted([in] BSTR filePath);
+		HRESULT OnFileRead([in] BSTR filePath);
+		HRESULT OnFileRenamed([in] BSTR filePath, [in] BSTR newContent);
+		HRESULT OnFileMoved([in] BSTR originalFilePath, [in] BSTR newFilePath);
+		HRESULT OnFileCopied([in] BSTR originalFilePath, [in] BSTR newFilePath);
+
+		HRESULT OnFolderCreated([in] BSTR filePath);
+		HRESULT OnFolderDeleted([in] BSTR filePath);
+		HRESULT OnFolderMoved([in] BSTR originalFilePath, [in] BSTR newFilePath);
+		HRESULT OnFolderRenamed([in] BSTR originalFilePath, [in] BSTR newFolderName);
+		HRESULT OnFolderOpened([in] BSTR filePath);
+		HRESULT OnFolderCopied([in] BSTR originalFilePath, [in] BSTR newFilePath);
+	};
+
+	[
+		uuid(8414B922-BCEA-40CA-AE61-CC5A3BAD161E),
+			version(1.0),
+			pointer_default(unique)
+	]
+		interface IFileOperations : IUnknown {
+		HRESULT CreateFile([in] BSTR filePath);
+		HRESULT DeleteFile([in] BSTR filePath);
+		HRESULT ReadFile([in] BSTR filePath);
+		HRESULT RenameFile([in] BSTR filePath, [in] BSTR newContent);
+		HRESULT MoveFile([in] BSTR originalFilePath, [in] BSTR newFilePath);
+		HRESULT CopyFile([in] BSTR originalFlePath, [in] BSTR newFilePath);
+		HRESULT SubscribeToEvent([in] IOperationsEvents* eventHandler);
+		HRESULT UnsubscribeFromEvent([in] IOperationsEvents* eventHandler);
+	};
+
+	[uuid(AC464258-7100-4169-A997-7783433A1B7E)]
+		coclass FileOperations {
+		[default] interface IFileOperations;
+	};
+
+	[
+		uuid(eee7ccd4-b167-497f-aee6-aa14cf094f10),
+			version(1.0),
+			pointer_default(unique)
+	]
+		interface IFolderOperations : IUnknown {
+		HRESULT CreateFolder([in] BSTR filePath);
+		HRESULT DeleteFolder([in] BSTR filePath);
+		HRESULT MoveFolder([in] BSTR originalFilePath, [in] BSTR newFilePath);
+		HRESULT RenameFolder([in] BSTR originalFilePath, [in] BSTR newFolderName);
+		HRESULT OpenFolder([in] BSTR filePath);
+		HRESULT CopyFolder([in] BSTR originalFlePath, [in] BSTR newFilePath);
+		HRESULT SubscribeToEvent([in] IOperationsEvents* eventHandler);
+		HRESULT UnsubscribeFromEvent([in] IOperationsEvents* eventHandler);
+	};
+
+	[uuid(36296AF4-D90B-42F0-A02E-D7B2BB0AF46D)]
+		coclass FolderOperations {
+		[default] interface IFolderOperations;
+	};
+};

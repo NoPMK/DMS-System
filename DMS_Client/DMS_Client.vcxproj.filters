@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Precompiled.h" />
+    <ClInclude Include="FileOperationService.h">
+      <Filter>Services\FileOps</Filter>
+    </ClInclude>
+    <ClInclude Include="COMService.h">
+      <Filter>Services\COMLifeService</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterfaceService.h">
+      <Filter>Services\UserService</Filter>
+    </ClInclude>
+    <ClInclude Include="IFileOperationService.h">
+      <Filter>Services\FileOps\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IFolderOperationService.h">
+      <Filter>Services\FolderOps\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="FolderOperationService.h">
+      <Filter>Services\FolderOps</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Precompiled.cpp" />
+    <ClCompile Include="OperationsClient.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="FileOperationService.cpp">
+      <Filter>Services\FileOps</Filter>
+    </ClCompile>
+    <ClCompile Include="COMService.cpp">
+      <Filter>Services\COMLifeService</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterfaceService.cpp">
+      <Filter>Services\UserService</Filter>
+    </ClCompile>
+    <ClCompile Include="IUserInterfaceService.h">
+      <Filter>Services\UserService\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="FolderOperationService.cpp">
+      <Filter>Services\FolderOps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DMS_Server\DMS_Server_i.c">
+      <Filter>Shared</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Services">
+      <UniqueIdentifier>{4ecc9e58-6481-44e5-a642-6f8948c10969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{f0852368-fe1e-4f39-8ac9-a97a267abb19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services\FileOps">
+      <UniqueIdentifier>{7987c20a-3ff2-4aa7-8be3-e61bc29825b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services\COMLifeService">
+      <UniqueIdentifier>{ed3bfd78-461b-42a1-8b6c-8335825e786d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services\UserService">
+      <UniqueIdentifier>{c1966567-dbef-41b8-a6c7-bd9d4ec4c369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services\FileOps\Interfaces">
+      <UniqueIdentifier>{6dbf6996-fafb-48be-982f-2f777ec7620f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services\UserService\Interfaces">
+      <UniqueIdentifier>{3981e757-3278-4d2a-aa00-fa83e882933b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services\FolderOps">
+      <UniqueIdentifier>{290e4272-5ba8-47dd-8a5d-dba476af7637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services\FolderOps\Interfaces">
+      <UniqueIdentifier>{761e5dc9-6eb2-472c-a5d3-e4cd85d27960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{366ea00b-d8a0-495b-a2db-2fb99d2c6de3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="..\Shared\DMS_Server.idl">
+      <Filter>Shared</Filter>
+    </Midl>
+  </ItemGroup>
+</Project>

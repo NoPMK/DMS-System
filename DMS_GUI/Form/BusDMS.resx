@@ -1,0 +1,1622 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="MiddleVerticalPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="MiddleVerticalPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="MiddleVerticalPanel.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="ToggleLeftPanelButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="ToggleLeftPanelButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 12</value>
+  </data>
+  <data name="ToggleLeftPanelButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ToggleLeftPanelButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ToggleLeftPanelButton.Text" xml:space="preserve">
+    <value>&gt;&gt;</value>
+  </data>
+  <data name="&gt;&gt;ToggleLeftPanelButton.Name" xml:space="preserve">
+    <value>ToggleLeftPanelButton</value>
+  </data>
+  <data name="&gt;&gt;ToggleLeftPanelButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToggleLeftPanelButton.Parent" xml:space="preserve">
+    <value>MiddleVerticalPanel.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ToggleLeftPanelButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ThemeSwitcher.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="ThemeSwitcher.Location" type="System.Drawing.Point, System.Drawing">
+    <value>787, 15</value>
+  </data>
+  <data name="ThemeSwitcher.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 45</value>
+  </data>
+  <data name="ThemeSwitcher.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ThemeSwitcher.Name" xml:space="preserve">
+    <value>ThemeSwitcher</value>
+  </data>
+  <data name="&gt;&gt;ThemeSwitcher.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ThemeSwitcher.Parent" xml:space="preserve">
+    <value>MiddleVerticalPanel.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ThemeSwitcher.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ToggleRightPanelButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="ToggleRightPanelButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="ToggleRightPanelButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>893, 15</value>
+  </data>
+  <data name="ToggleRightPanelButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 23</value>
+  </data>
+  <data name="ToggleRightPanelButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ToggleRightPanelButton.Text" xml:space="preserve">
+    <value>&lt;&lt;</value>
+  </data>
+  <data name="&gt;&gt;ToggleRightPanelButton.Name" xml:space="preserve">
+    <value>ToggleRightPanelButton</value>
+  </data>
+  <data name="&gt;&gt;ToggleRightPanelButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToggleRightPanelButton.Parent" xml:space="preserve">
+    <value>MiddleVerticalPanel.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ToggleRightPanelButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="MainMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>239, 15</value>
+  </metadata>
+  <data name="MainMenuStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="CreateNewFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="CreateNewFile.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="CreateNewFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="CreateNewFolder.Text" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="NewToolStripItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 22</value>
+  </data>
+  <data name="NewToolStripItem.Text" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="FileStripItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
+  <data name="FileStripItem.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="LargeIconsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="LargeIconsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Large Icons</value>
+  </data>
+  <data name="SmallIconsViewOption.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="SmallIconsViewOption.Text" xml:space="preserve">
+    <value>Small Icons</value>
+  </data>
+  <data name="ListViewOption.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ListViewOption.Text" xml:space="preserve">
+    <value>ListView</value>
+  </data>
+  <data name="DetailsViewOption.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="DetailsViewOption.Text" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="ShowHiddenItemsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ShowHiddenItemsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Show Hidden Items</value>
+  </data>
+  <data name="ViewStripItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="ViewStripItem.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 6</value>
+  </data>
+  <data name="StripDivider.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 20</value>
+  </data>
+  <data name="StripDivider.Text" xml:space="preserve">
+    <value>|</value>
+  </data>
+  <data name="RenameStripItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 20</value>
+  </data>
+  <data name="RenameStripItem.Text" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="CutStripItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 20</value>
+  </data>
+  <data name="CutStripItem.Text" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="CopyStripItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 20</value>
+  </data>
+  <data name="CopyStripItem.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="PasteStripItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 20</value>
+  </data>
+  <data name="PasteStripItem.Text" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="MoveStripItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
+  <data name="MoveStripItem.Text" xml:space="preserve">
+    <value>Move</value>
+  </data>
+  <data name="DeleteStripItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="DeleteStripItem.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="MainMenuStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 45</value>
+  </data>
+  <data name="MainMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>932, 24</value>
+  </data>
+  <data name="MainMenuStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;MainMenuStrip.Name" xml:space="preserve">
+    <value>MainMenuStrip</value>
+  </data>
+  <data name="&gt;&gt;MainMenuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenuStrip.Parent" xml:space="preserve">
+    <value>MiddleVerticalPanel.Panel1</value>
+  </data>
+  <data name="&gt;&gt;MainMenuStrip.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;MiddleVerticalPanel.Panel1.Name" xml:space="preserve">
+    <value>MiddleVerticalPanel.Panel1</value>
+  </data>
+  <data name="&gt;&gt;MiddleVerticalPanel.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MiddleVerticalPanel.Panel1.Parent" xml:space="preserve">
+    <value>MiddleVerticalPanel</value>
+  </data>
+  <data name="&gt;&gt;MiddleVerticalPanel.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LoggerSplitContainer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="LoggerSplitContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 500</value>
+  </data>
+  <data name="LoggerSplitContainer.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="OutputWindowExpandButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="OutputWindowExpandButton.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="OutputWindowExpandButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="OutputWindowExpandButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAY5JREFUSEvtlDtLA0EURlcUrRQETWGhNpbBxkL8AVpoZ2Fn6auxt7KzE+zF2tbS
+        qCAGFfEFPrC0ULBSRINgIfHcO1dZNgOS7GRByIFDsrN3vo/NbjZq8C8pl8t9uIsl3MFeOxUOQmfxER9w
+        xtakNE5Bh0NCqK/4HeO86XC9oUh+3jjhr9gHRXKPCyhXvo3p7zEhOTxDH58Y/mEiUEqv8S/C/bSExUtv
+        cAwX8FIWEpRsW3oIO3GZWpqztW58kcUE+3a+RT5TQcgenqKWCnzfwCRfOIz9eIt5G08HQa04jefoY93m
+        ttxhBUUNqgY2DeKTbvfzjF02O4pXspjgQMOqgU2deKzb/czZaHgIb8NNralEX5l1gXC5x824Jk0J7rDJ
+        RsNBaDvK/3bZjhdRnuI4EzqcBkLkng7hFC7hEf6wajOT+KErjgvdXCsEHLocL/c4YKMyO4KvckKw5dpg
+        f9HFVCAvkR4b+4W1FT0LtpQN9M272uyLx11t9sV5V5t9cYerzbhYoFMeyOrfxQ3qTxR9A9GMEk8TYi+m
+        AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="OutputWindowExpandButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 3</value>
+  </data>
+  <data name="OutputWindowExpandButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>930, 33</value>
+  </data>
+  <data name="OutputWindowExpandButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;OutputWindowExpandButton.Name" xml:space="preserve">
+    <value>OutputWindowExpandButton</value>
+  </data>
+  <data name="&gt;&gt;OutputWindowExpandButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OutputWindowExpandButton.Parent" xml:space="preserve">
+    <value>LoggerSplitContainer.Panel1</value>
+  </data>
+  <data name="&gt;&gt;OutputWindowExpandButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LoggerSplitContainer.Panel1.Name" xml:space="preserve">
+    <value>LoggerSplitContainer.Panel1</value>
+  </data>
+  <data name="&gt;&gt;LoggerSplitContainer.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoggerSplitContainer.Panel1.Parent" xml:space="preserve">
+    <value>LoggerSplitContainer</value>
+  </data>
+  <data name="&gt;&gt;LoggerSplitContainer.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="OutputWindowPrevButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="OutputWindowPrevButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 8</value>
+  </data>
+  <data name="OutputWindowPrevButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 22</value>
+  </data>
+  <data name="OutputWindowPrevButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;OutputWindowPrevButton.Name" xml:space="preserve">
+    <value>OutputWindowPrevButton</value>
+  </data>
+  <data name="&gt;&gt;OutputWindowPrevButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OutputWindowPrevButton.Parent" xml:space="preserve">
+    <value>LoggerSplitContainer.Panel2</value>
+  </data>
+  <data name="&gt;&gt;OutputWindowPrevButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="OutputWindowContainer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="OutputWindow.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="OutputWindow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="OutputWindow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>933, 149</value>
+  </data>
+  <data name="OutputWindow.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="OutputWindow.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;OutputWindow.Name" xml:space="preserve">
+    <value>OutputWindow</value>
+  </data>
+  <data name="&gt;&gt;OutputWindow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OutputWindow.Parent" xml:space="preserve">
+    <value>OutputWindowContainer</value>
+  </data>
+  <data name="&gt;&gt;OutputWindow.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="OutputWindowContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 32</value>
+  </data>
+  <data name="OutputWindowContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>933, 149</value>
+  </data>
+  <data name="OutputWindowContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;OutputWindowContainer.Name" xml:space="preserve">
+    <value>OutputWindowContainer</value>
+  </data>
+  <data name="&gt;&gt;OutputWindowContainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OutputWindowContainer.Parent" xml:space="preserve">
+    <value>LoggerSplitContainer.Panel2</value>
+  </data>
+  <data name="&gt;&gt;OutputWindowContainer.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="OutputWindowSearchButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="OutputWindowSearchButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 8</value>
+  </data>
+  <data name="OutputWindowSearchButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 22</value>
+  </data>
+  <data name="OutputWindowSearchButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;OutputWindowSearchButton.Name" xml:space="preserve">
+    <value>OutputWindowSearchButton</value>
+  </data>
+  <data name="&gt;&gt;OutputWindowSearchButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OutputWindowSearchButton.Parent" xml:space="preserve">
+    <value>LoggerSplitContainer.Panel2</value>
+  </data>
+  <data name="&gt;&gt;OutputWindowSearchButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="OutputWindowSearchField.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="OutputWindowSearchField.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 8</value>
+  </data>
+  <data name="OutputWindowSearchField.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 18</value>
+  </data>
+  <data name="OutputWindowSearchField.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;OutputWindowSearchField.Name" xml:space="preserve">
+    <value>OutputWindowSearchField</value>
+  </data>
+  <data name="&gt;&gt;OutputWindowSearchField.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OutputWindowSearchField.Parent" xml:space="preserve">
+    <value>LoggerSplitContainer.Panel2</value>
+  </data>
+  <data name="&gt;&gt;OutputWindowSearchField.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="OutputWindowNextButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="OutputWindowNextButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="OutputWindowNextButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 8</value>
+  </data>
+  <data name="OutputWindowNextButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 22</value>
+  </data>
+  <data name="OutputWindowNextButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;OutputWindowNextButton.Name" xml:space="preserve">
+    <value>OutputWindowNextButton</value>
+  </data>
+  <data name="&gt;&gt;OutputWindowNextButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OutputWindowNextButton.Parent" xml:space="preserve">
+    <value>LoggerSplitContainer.Panel2</value>
+  </data>
+  <data name="&gt;&gt;OutputWindowNextButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="OutputWindowClearButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="OutputWindowClearButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="OutputWindowClearButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>884, 8</value>
+  </data>
+  <data name="OutputWindowClearButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 22</value>
+  </data>
+  <data name="OutputWindowClearButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;OutputWindowClearButton.Name" xml:space="preserve">
+    <value>OutputWindowClearButton</value>
+  </data>
+  <data name="&gt;&gt;OutputWindowClearButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OutputWindowClearButton.Parent" xml:space="preserve">
+    <value>LoggerSplitContainer.Panel2</value>
+  </data>
+  <data name="&gt;&gt;OutputWindowClearButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;LoggerSplitContainer.Panel2.Name" xml:space="preserve">
+    <value>LoggerSplitContainer.Panel2</value>
+  </data>
+  <data name="&gt;&gt;LoggerSplitContainer.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoggerSplitContainer.Panel2.Parent" xml:space="preserve">
+    <value>LoggerSplitContainer</value>
+  </data>
+  <data name="&gt;&gt;LoggerSplitContainer.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LoggerSplitContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>933, 222</value>
+  </data>
+  <data name="LoggerSplitContainer.SplitterDistance" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="LoggerSplitContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LoggerSplitContainer.Name" xml:space="preserve">
+    <value>LoggerSplitContainer</value>
+  </data>
+  <data name="&gt;&gt;LoggerSplitContainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoggerSplitContainer.Parent" xml:space="preserve">
+    <value>MiddleVerticalPanel.Panel2</value>
+  </data>
+  <data name="&gt;&gt;LoggerSplitContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Middle.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Middle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="MiddleLeftPath.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="MiddleLeftPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="MiddleLeftPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 16</value>
+  </data>
+  <data name="MiddleLeftPath.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;MiddleLeftPath.Name" xml:space="preserve">
+    <value>MiddleLeftPath</value>
+  </data>
+  <data name="&gt;&gt;MiddleLeftPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MiddleLeftPath.Parent" xml:space="preserve">
+    <value>Middle.Panel1</value>
+  </data>
+  <data name="&gt;&gt;MiddleLeftPath.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LeftList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="NameLeft.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NameLeft.Width" type="System.Int32, mscorlib">
+    <value>230</value>
+  </data>
+  <data name="TypeLeft.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="SizeLeft.Text" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="DateLeft.Text" xml:space="preserve">
+    <value>Last Modified</value>
+  </data>
+  <data name="DateLeft.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="LeftList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 22</value>
+  </data>
+  <data name="LeftList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 447</value>
+  </data>
+  <data name="LeftList.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LeftList.Name" xml:space="preserve">
+    <value>LeftList</value>
+  </data>
+  <data name="&gt;&gt;LeftList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LeftList.Parent" xml:space="preserve">
+    <value>Middle.Panel1</value>
+  </data>
+  <data name="&gt;&gt;LeftList.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="MiddleLeftInfo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="MiddleLeftInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 475</value>
+  </data>
+  <data name="MiddleLeftInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 16</value>
+  </data>
+  <data name="MiddleLeftInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;MiddleLeftInfo.Name" xml:space="preserve">
+    <value>MiddleLeftInfo</value>
+  </data>
+  <data name="&gt;&gt;MiddleLeftInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MiddleLeftInfo.Parent" xml:space="preserve">
+    <value>Middle.Panel1</value>
+  </data>
+  <data name="&gt;&gt;MiddleLeftInfo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Middle.Panel1.Name" xml:space="preserve">
+    <value>Middle.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Middle.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Middle.Panel1.Parent" xml:space="preserve">
+    <value>Middle</value>
+  </data>
+  <data name="&gt;&gt;Middle.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RightList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="NameRight.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NameRight.Width" type="System.Int32, mscorlib">
+    <value>230</value>
+  </data>
+  <data name="TypeRight.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="SizeRight.Text" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="DateRight.Text" xml:space="preserve">
+    <value>Last Modified</value>
+  </data>
+  <data name="DateRight.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="RightList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 22</value>
+  </data>
+  <data name="RightList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 447</value>
+  </data>
+  <data name="RightList.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;RightList.Name" xml:space="preserve">
+    <value>RightList</value>
+  </data>
+  <data name="&gt;&gt;RightList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RightList.Parent" xml:space="preserve">
+    <value>Middle.Panel2</value>
+  </data>
+  <data name="&gt;&gt;RightList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="MiddleRightInfo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="MiddleRightInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 475</value>
+  </data>
+  <data name="MiddleRightInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>464, 16</value>
+  </data>
+  <data name="MiddleRightInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;MiddleRightInfo.Name" xml:space="preserve">
+    <value>MiddleRightInfo</value>
+  </data>
+  <data name="&gt;&gt;MiddleRightInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MiddleRightInfo.Parent" xml:space="preserve">
+    <value>Middle.Panel2</value>
+  </data>
+  <data name="&gt;&gt;MiddleRightInfo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="MiddleRightPath.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="MiddleRightPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="MiddleRightPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>464, 16</value>
+  </data>
+  <data name="MiddleRightPath.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;MiddleRightPath.Name" xml:space="preserve">
+    <value>MiddleRightPath</value>
+  </data>
+  <data name="&gt;&gt;MiddleRightPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MiddleRightPath.Parent" xml:space="preserve">
+    <value>Middle.Panel2</value>
+  </data>
+  <data name="&gt;&gt;MiddleRightPath.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Middle.Panel2.Name" xml:space="preserve">
+    <value>Middle.Panel2</value>
+  </data>
+  <data name="&gt;&gt;Middle.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Middle.Panel2.Parent" xml:space="preserve">
+    <value>Middle</value>
+  </data>
+  <data name="&gt;&gt;Middle.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Middle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>933, 491</value>
+  </data>
+  <data name="Middle.SplitterDistance" type="System.Int32, mscorlib">
+    <value>465</value>
+  </data>
+  <data name="Middle.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Middle.Name" xml:space="preserve">
+    <value>Middle</value>
+  </data>
+  <data name="&gt;&gt;Middle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Middle.Parent" xml:space="preserve">
+    <value>MiddleVerticalPanel.Panel2</value>
+  </data>
+  <data name="&gt;&gt;Middle.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;MiddleVerticalPanel.Panel2.Name" xml:space="preserve">
+    <value>MiddleVerticalPanel.Panel2</value>
+  </data>
+  <data name="&gt;&gt;MiddleVerticalPanel.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MiddleVerticalPanel.Panel2.Parent" xml:space="preserve">
+    <value>MiddleVerticalPanel</value>
+  </data>
+  <data name="&gt;&gt;MiddleVerticalPanel.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="MiddleVerticalPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>932, 806</value>
+  </data>
+  <data name="MiddleVerticalPanel.SplitterDistance" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="MiddleVerticalPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;MiddleVerticalPanel.Name" xml:space="preserve">
+    <value>MiddleVerticalPanel</value>
+  </data>
+  <data name="&gt;&gt;MiddleVerticalPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MiddleVerticalPanel.Parent" xml:space="preserve">
+    <value>RightPanel.Panel1</value>
+  </data>
+  <data name="&gt;&gt;MiddleVerticalPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RightPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="RightPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;RightPanel.Panel1.Name" xml:space="preserve">
+    <value>RightPanel.Panel1</value>
+  </data>
+  <data name="&gt;&gt;RightPanel.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RightPanel.Panel1.Parent" xml:space="preserve">
+    <value>RightPanel</value>
+  </data>
+  <data name="&gt;&gt;RightPanel.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RightPanelStructure.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="RightPanelStructure.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 88</value>
+  </data>
+  <data name="RightPanelStructure.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 709</value>
+  </data>
+  <data name="RightPanelStructure.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;RightPanelStructure.Name" xml:space="preserve">
+    <value>RightPanelStructure</value>
+  </data>
+  <data name="&gt;&gt;RightPanelStructure.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RightPanelStructure.Parent" xml:space="preserve">
+    <value>RightPanel.Panel2</value>
+  </data>
+  <data name="&gt;&gt;RightPanelStructure.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RightPanelComboBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="RightPanelComboBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="RightPanelComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 37</value>
+  </data>
+  <data name="RightPanelComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 23</value>
+  </data>
+  <data name="RightPanelComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;RightPanelComboBox.Name" xml:space="preserve">
+    <value>RightPanelComboBox</value>
+  </data>
+  <data name="&gt;&gt;RightPanelComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RightPanelComboBox.Parent" xml:space="preserve">
+    <value>RightPanel.Panel2</value>
+  </data>
+  <data name="&gt;&gt;RightPanelComboBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RightPanelDriveDetails.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="RightPanelDriveDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 66</value>
+  </data>
+  <data name="RightPanelDriveDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 16</value>
+  </data>
+  <data name="RightPanelDriveDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;RightPanelDriveDetails.Name" xml:space="preserve">
+    <value>RightPanelDriveDetails</value>
+  </data>
+  <data name="&gt;&gt;RightPanelDriveDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RightPanelDriveDetails.Parent" xml:space="preserve">
+    <value>RightPanel.Panel2</value>
+  </data>
+  <data name="&gt;&gt;RightPanelDriveDetails.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RightPanelSearch.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="RightPanelSearch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="RightPanelSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 15</value>
+  </data>
+  <data name="RightPanelSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 18</value>
+  </data>
+  <data name="RightPanelSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;RightPanelSearch.Name" xml:space="preserve">
+    <value>RightPanelSearch</value>
+  </data>
+  <data name="&gt;&gt;RightPanelSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RightPanelSearch.Parent" xml:space="preserve">
+    <value>RightPanel.Panel2</value>
+  </data>
+  <data name="&gt;&gt;RightPanelSearch.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="RightPanelSearchButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="RightPanelSearchButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 15</value>
+  </data>
+  <data name="RightPanelSearchButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 19</value>
+  </data>
+  <data name="RightPanelSearchButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;RightPanelSearchButton.Name" xml:space="preserve">
+    <value>RightPanelSearchButton</value>
+  </data>
+  <data name="&gt;&gt;RightPanelSearchButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RightPanelSearchButton.Parent" xml:space="preserve">
+    <value>RightPanel.Panel2</value>
+  </data>
+  <data name="&gt;&gt;RightPanelSearchButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;RightPanel.Panel2.Name" xml:space="preserve">
+    <value>RightPanel.Panel2</value>
+  </data>
+  <data name="&gt;&gt;RightPanel.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RightPanel.Panel2.Parent" xml:space="preserve">
+    <value>RightPanel</value>
+  </data>
+  <data name="&gt;&gt;RightPanel.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RightPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1109, 806</value>
+  </data>
+  <data name="RightPanel.SplitterDistance" type="System.Int32, mscorlib">
+    <value>932</value>
+  </data>
+  <data name="RightPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;RightPanel.Name" xml:space="preserve">
+    <value>RightPanel</value>
+  </data>
+  <data name="&gt;&gt;RightPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RightPanel.Parent" xml:space="preserve">
+    <value>LeftPanel.Panel2</value>
+  </data>
+  <data name="&gt;&gt;RightPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LeftPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="LeftPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="LeftPanelStructure.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="LeftPanelStructure.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 88</value>
+  </data>
+  <data name="LeftPanelStructure.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 709</value>
+  </data>
+  <data name="LeftPanelStructure.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;LeftPanelStructure.Name" xml:space="preserve">
+    <value>LeftPanelStructure</value>
+  </data>
+  <data name="&gt;&gt;LeftPanelStructure.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LeftPanelStructure.Parent" xml:space="preserve">
+    <value>LeftPanel.Panel1</value>
+  </data>
+  <data name="&gt;&gt;LeftPanelStructure.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LeftPanelSearch.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="LeftPanelSearch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="LeftPanelSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 14</value>
+  </data>
+  <data name="LeftPanelSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 18</value>
+  </data>
+  <data name="LeftPanelSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;LeftPanelSearch.Name" xml:space="preserve">
+    <value>LeftPanelSearch</value>
+  </data>
+  <data name="&gt;&gt;LeftPanelSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LeftPanelSearch.Parent" xml:space="preserve">
+    <value>LeftPanel.Panel1</value>
+  </data>
+  <data name="&gt;&gt;LeftPanelSearch.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LeftPanelSearchButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="LeftPanelSearchButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="LeftPanelSearchButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 13</value>
+  </data>
+  <data name="LeftPanelSearchButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 19</value>
+  </data>
+  <data name="LeftPanelSearchButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;LeftPanelSearchButton.Name" xml:space="preserve">
+    <value>LeftPanelSearchButton</value>
+  </data>
+  <data name="&gt;&gt;LeftPanelSearchButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LeftPanelSearchButton.Parent" xml:space="preserve">
+    <value>LeftPanel.Panel1</value>
+  </data>
+  <data name="&gt;&gt;LeftPanelSearchButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LeftPanelComboBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="LeftPanelComboBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="LeftPanelComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 37</value>
+  </data>
+  <data name="LeftPanelComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 23</value>
+  </data>
+  <data name="LeftPanelComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;LeftPanelComboBox.Name" xml:space="preserve">
+    <value>LeftPanelComboBox</value>
+  </data>
+  <data name="&gt;&gt;LeftPanelComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LeftPanelComboBox.Parent" xml:space="preserve">
+    <value>LeftPanel.Panel1</value>
+  </data>
+  <data name="&gt;&gt;LeftPanelComboBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LeftPanelDriveDetails.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="LeftPanelDriveDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 66</value>
+  </data>
+  <data name="LeftPanelDriveDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 16</value>
+  </data>
+  <data name="LeftPanelDriveDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LeftPanelDriveDetails.Name" xml:space="preserve">
+    <value>LeftPanelDriveDetails</value>
+  </data>
+  <data name="&gt;&gt;LeftPanelDriveDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LeftPanelDriveDetails.Parent" xml:space="preserve">
+    <value>LeftPanel.Panel1</value>
+  </data>
+  <data name="&gt;&gt;LeftPanelDriveDetails.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;LeftPanel.Panel1.Name" xml:space="preserve">
+    <value>LeftPanel.Panel1</value>
+  </data>
+  <data name="&gt;&gt;LeftPanel.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LeftPanel.Panel1.Parent" xml:space="preserve">
+    <value>LeftPanel</value>
+  </data>
+  <data name="&gt;&gt;LeftPanel.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LeftPanel.Panel2.Name" xml:space="preserve">
+    <value>LeftPanel.Panel2</value>
+  </data>
+  <data name="&gt;&gt;LeftPanel.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LeftPanel.Panel2.Parent" xml:space="preserve">
+    <value>LeftPanel</value>
+  </data>
+  <data name="&gt;&gt;LeftPanel.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LeftPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1280, 806</value>
+  </data>
+  <data name="LeftPanel.SplitterDistance" type="System.Int32, mscorlib">
+    <value>167</value>
+  </data>
+  <data name="LeftPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LeftPanel.Name" xml:space="preserve">
+    <value>LeftPanel</value>
+  </data>
+  <data name="&gt;&gt;LeftPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LeftPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LeftPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="RightClickMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>375, 15</value>
+  </metadata>
+  <data name="RightClickCreateFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="RightClickCreateFile.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="RightClickCreateFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="RightClickCreateFolder.Text" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="RightClickNewMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="RightClickNewMenu.Text" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="RightClickRename.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="RightClickRename.Text" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="RightClickCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="RightClickCopy.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="RightClickCut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="RightClickCut.Text" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="RightClickPaste.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="RightClickPaste.Text" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="RightClickMove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="RightClickMove.Text" xml:space="preserve">
+    <value>Move</value>
+  </data>
+  <data name="RightClickDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="RightClickDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="RightClickMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 158</value>
+  </data>
+  <data name="&gt;&gt;RightClickMenu.Name" xml:space="preserve">
+    <value>RightClickMenu</value>
+  </data>
+  <data name="&gt;&gt;RightClickMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>31</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1280, 806</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAPY6AQD2OgEAAAAAAAAA
+        AAAAAAAAXFhOAFhTSAFiXlMAYVxRGlFMQcBLRTr/TEY6/ktEOf9JQzj/SEI3/0dBNf9GQDT/RD8z/0Q9
+        Mv9DPTH/Qjww/0E6L/8/OS3/Pjgr/z03Kv87NSn+NzEk7DgyJa5MRzs4LicaADo0JwNNRzwAQjwwAEI8
+        MAAAAAAAAAAAAAAAAABaVEkAV1NIAj45KwBTTkKubWhf/7u5tfy+vLj/vLq3/7y6t/+8urb/vLq2/7u5
+        tf+7ubX/ubez/7a0sP+1tLD/trSw/7a0sP+2tLD/trSw/7Wzr/+gnZj/aGNZ/zo0KP9BPDCAAAAAAC4p
+        HAJOSDwAQjwwAEI9MQAAAAAAAAAAAFpUSgFZU0oAhIB5Dk5IPem7ubX//////vz8/P//////////////
+        //////////////7////3+Pn/9fX2//r6+//4+Pn/+fn6//v8/f/8/P3//Pz9//////78/P38raum+0E7
+        L/9BOy+ENzAjAEM9MQNBOy8AQjwwAAAAAAAAAAAAWlVLAVhUSgB3dGwRUEtA7L+9uf/8/P3+8O/v//Ly
+        8v/y8vL/8fHx//Ly8v/x8fH/5+fn/+zs7P/19fb/5+fm//T09f/y8/P/7Ozr/+7u7f/u7u3/7e3t/+/v
+        7//////+rKql/DkzJ/9LRTk4QTsvAEI8MAJDPTEAAAAAAAAAAABbVkwBWlVLAHp2bhFQS0Dtvr25////
+        //7y8vL/9PT0//Pz8//y8vL/7u7u//b29/+TkIn/XFdM/7e2sv9nYln/dHBo/9XU0v/x8vL/7u7u//Dw
+        8P/w8PD/8PDw/+/v7//8/P37ZmJY/zYvI58kHQ8AQz0xA0I8MAAAAAAAAAAAAFtWTAFbVksAenZtEVFM
+        Qe6/vbr//////vLy8v/z8/P/+fn5//z9/f/w8PD/7Ozt/9PS0f93c2r/aGRa/7e1sv9ZU0n/kY6H//j4
+        +v/r6+z/7+/v//Dw8P/w8PD/7e3t//////2fnJb/NC4h2P///wNAOS0AQz0xAQAAAAAAAAAAXFdMAVtW
+        SgB7d20RUkxB7r++uv/////+8fHw//j4+P/d3dv/srCs/8TCwP/p6en/8PDw//Pz9P/o6Oj/9vb3/+7u
+        7//p6en/7u7t/+7u7f/t7e7/7+/v/+/v7//t7e3//P39/rSyrv84MiXraGJZEEE6LgBDPTEBAAAAAAAA
+        AABdWE0BXFdMAHx4bhFSTUHuwL66//////7v7+7/+fn6/4eEff8/Oi3/XVdN/97e3f/o6Of/5ubm/+zs
+        7P/p6Oj/6enq//Hx7P/p6ev/6urs//Ly7v/t7e7/7+/v/+zs7P/7/P3+tbKu/zgzJu1jYFYRQDwvAEM+
+        MgEAAAAAAAAAAF1YTQFcV00Ae3dvEVNOQu6/vbr//////vf39//3+Pn/ioeA/01HO/9jXlT/5eXl//T1
+        9v/u7+//6eno/+rq6//u7ur/2Nfo/1hY2f9XV9n/2trq//Hx7v/r6+7/6urr//r7/P60sq7/OTMm7mNg
+        VhFBPDAAQz4yAQAAAAAAAAAAXVhOAVtWTQB7d3ARUk1C7sXDv//p6ej+h4N9/4uIgf9pZFv/U01D/1pV
+        Sv+FgXr/gX11/7Wzr//v7/D/5ubo//X17P+0tOT/IiLT/yEh0v+1teX/9/fu//Pz7v/09Oz/+fn7/rSy
+        rv86MyfuZF9VEUE7LwBEPjIBAAAAAAAAAABeWU8BXVhOAHx4cBFRTEHuy8nG/8bEwf5CPDD/UEo//1RP
+        RP9YU0n/VVBF/0xHO/8+Nyr/e3hw//Ly8//m5ub/6urq/+np6v+Njd//jIzf/+jo6//y8u3/w8Pn/8LC
+        5f////v+s7Gt/zs0KO5kX1URQjwwAEU/MwEAAAAAAAAAAF5ZUAFeWU8AfXlxEVJNQu7HxsP/2dnX/mFc
+        Uv9oY1r/XVhO/1ZRR/9YUkj/Y15U/1hTSP+YlY//8PDx/+bm5v/o6On/6+vq//X16//z8+v/9PTr/8LC
+        5v8wMNT/LCzR/8/P9P67uq7/OTMo7mVfVhFDPTAART8zAQAAAAAAAAAAX1pQAV5ZTwB9eXERVVBF7sC/
+        u//////+6Ojn//Ly8v+MiYH/T0k+/2RfVv/S0tD/3t7d/+Xl5f/n5+f/5+fn/+jo6P/p6en/5+fp/+Xl
+        6f/y8uv/wsLl/zEx1P8tLdL/z8/0/ry6rv85NCnuZmBWEUQ9MQBGQDQBAAAAAAAAAABgW1ABX1pOAH56
+        cBFWUEXuwb+8//////7y8vL//////4mFfv9CPDD/WlZL/9zb2//q6ur/5eXl/+Xl5f/m5ub/5+fn/+fn
+        5//o6Oj/6Ojo/+jo6f/v7+r/wcHl/8DA4//9/fn+srCt/zw2Ku5lYlcRQz8yAEZBNQEAAAAAAAAAAGBb
+        UAFfWk8AfnpxEVZRRu7Bv7z//////vT09P/09fX/tbOw/4F9dv+bmZP/5eXl/+bm5v/n5+f/6Ojp/+np
+        6f/p6en/6urq/+vr6//s7Oz/7Ozs/+vs7f/09e3/7u7n//X19/6zsa3/PTYq7mVhWBFEPzMARkE1AQAA
+        AAAAAAAAYFtRAV9ZUAB9eXIRVlFG7sG/u//////+4+Pi/9bX1v/f4N//4uPj/+Lj4//b3Nr/2tvZ/9rc
+        2v/b3Nv/3N3c/9zd3P/c3dz/3d7d/97f3f/e397/3t/d/9/h4f/t7e//9vf3/rKwrP89NyvuZWBZEUQ+
+        NABHQTYBAAAAAAAAAABhXFIBYFtRAH56cxFVUEXuycfE/9nY1v5fWlD/ZVxT/2BXTv9eVU3/XlRM/2FW
+        T/9hVU7/YFRN/19TS/9eUkr/XVJK/1xQSP9bT0f/Wk9G/1lNRv9ZTEX/VElA/4+Lhf/4+Pn+srCs/z44
+        K+5mYVcRRT8zAEhCNgEAAAAAAAAAAGFcUgFhXFIAf3tzEVVQRe7Lysf/ysfF/k5OQf9yoIX/fKiP/3ml
+        i/9toIP/U5Vw/1WWcv9UlXH/U5Rw/1KTb/9Rk27/UJJt/0+RbP9NkWv/TI9q/0ySa/9KgmD/PTcq/8zL
+        yf66ubX/PTYp7mdhWBFGQDMASEI2AQAAAAAAAAAAYl1TAWFcUgCAfHQRVlBG7svKx//Oysj+U1ZI/2LB
+        k/+G17H/ktq4/4/atv9yzqL/VcKO/1jDkP9Xw4//VsKO/1XBjf9Two3/U8GM/1HBi/9Qv4r/T8KL/1C6
+        h/9CRDX/vbm3/ry7uP88NyruaGJYEUdANABJQzcBAAAAAAAAAABjXlQBYl1TAIF8dBFXUUbuy8rH/8zJ
+        x/5YV0v/ZruR/1q9jf+Cy6f/jtGw/43QsP9xxZz/VLmH/1e6if9VuYj/VbiI/1O5h/9SuIb/UbeF/1C3
+        hP9PuIX/ULGB/0FDNP+/u7n+u7q3/z03K+5mY1gRRkI1AElEOAEAAAAAAAAAAGNeVQFiXVQAgHx1EVdS
+        R+7Lysf/zMnH/llYS/+My6z/Z8SX/1q8jP+Czaj/jtKx/43RsP9xxp3/U7qI/1a7iv9Vuon/VLqI/1K6
+        h/9SuYf/UbiG/0+6h/9RsoL/QkM0/766uP67urb/Pjcr7mZjWRFHQjYASUQ4AQAAAAAAAAAAY15VAWJc
+        VAB/e3URV1JI7szLyP/Mycf+WFhL/5DNr/+O1LL/ZsGU/1m8jP+Bzaj/jdKx/4zRsP9wxpz/U7qH/1a7
+        iv9Vuon/U7qI/1K6h/9RuIb/ULuH/1Gzgv9DRDX/vbq4/ru5tv8+OCzuZ2JZEUdBNgBKRDkBAAAAAAAA
+        AABkX1UBY15TAIF9dBFYUkjuy8vI/83KyP5UVkj/eMOe/5LWtf+N0a//ZcGU/1i8i/+Bzaj/jdGw/4zR
+        r/9wxpz/UrqH/1W7if9Uuoj/UrqH/1K5hv9Ru4f/UbOD/0NENv+9urj+urm2/z85Le5nY1oRSEI3AEtF
+        OgEAAAAAAAAAAGVgVQFkX1QAgn51EVhTSO7Lysj/zcrI/lZXSv9fuYz/dsqh/5LTs/+M0bD/ZcGU/1i8
+        i/+Bzaj/jdGw/4zRr/9vxpz/UbmH/1W6if9Tuoj/UrmH/1G7iP9Ss4P/REU3/726t/66ubb/QDot7mlj
+        WxFJQzgAS0U6AQAAAAAAAAAAZWBWAWRfVQCCfnYRWVRJ7szLyP/Nysj+V1hL/2O6j/9cv4//dcig/5LT
+        s/+M0a//ZMGU/1e8i/+AzKf/jNGv/4vRr/9vxZv/UbmG/1S6iP9Suof/UruI/1K0g/9ERjf/vbm3/rq5
+        tf9AOi7uaWRcEUpEOQBMRjsBAAAAAAAAAABmYVcBZWBWAIN/dxFaVEruzMvI/87LyP5XWUz/Y7qP/2DB
+        kv9bvI3/dcef/5HTs/+L0K//Y8CT/1e7iv+Ay6f/jNGv/4vRrv9uxJr/UbiF/1O5h/9Su4j/U7OD/0VH
+        OP+8ubf+uri1/0A7Lu5oZVoRSUU4AExHOwEAAAAAAAAAAGZhWAFlYFcAgn53EVpVSu7My8j/zsvJ/lha
+        TP9jvZH/YMOU/2DAkv9bv4//dMmg/5HVtP+M07H/ZMOV/1e9jP9/zqf/jNOw/4zTsP9vx5z/UbqH/1K+
+        iv9UtYX/RUc4/7y5tv65uLT/QTsv7mhkWhFKRTkATEc7AQAAAAAAAAAAZmFYAWVgVwCCfngRW1VL7czL
+        yP/Nysj+WltO/2a3jv9ivJD/YrqO/2G6jv9cuIv/dsKc/47Mrf+Jyqr/Y7uP/1q3if9/xqL/iMqp/4nK
+        qv9svZX/U7aF/1avg/9ISTr/ure1/rq4tf9CPDDtaWRbEUpEOQBNRzwBAAAAAAAAAABnYlkBZmFYAIN/
+        eBFbVkzszcvJ/83Lyf5PSj//WVpO/1ZYS/9VV0n/VVZI/1NUR/9QU0T/VFRG/1NTRv9TUUX/TE5A/0xO
+        QP9PTkH/TU0//05MP/9ISTv/SEo7/zs1KP/Avrv+xMK//0I8MOxrZl0RS0U6AE5IPQEAAAAAAAAAAGdi
+        WQFnYlgAjouDDlxWTenCwL3//////s3Lyf/Nysj/zcrI/83KyP/Nysf/zMnH/8zJx//LyMb/ysjF/8rI
+        xf/LyMX/ysfE/8nGxP/IxsP/yMXD/8nGw//IxcP/x8bD//////65t7P/Qjww6Xp1bQ5MRjsATkg9AQAA
+        AAAAAAAAZ2JYAGdiWQJPST8AYl1Trnl1bf/Cwb38zMvI/8vKx//Lysf/y8rH/8vKxv/Kycb/ysnG/8rJ
+        xv/KycX/ycjF/8nHxP/Ix8T/yMfD/8jGw//HxsP/x8XC/8bFwf/GxcL/u7m1/GVhV/9JQziuMy8hAE9L
+        QAJPST4AAAAAAAAAAABqZV0AZ2JZAXBsYwBvamEaYVxTwFtWTP9aVEr+WFNI/1dSR/9WUUb/VU9E/1RO
+        Q/9STUL/UUxB/1BLP/9PST7/Tkg9/01HPP9LRjr/S0Q6/0lEOP9IQjf/R0E1/0ZBNf5GPzT/SkU5wFdT
+        RxpZVUkAUEs/AU5HPgAAAAAAkAAAS5AAACOgAAARoAAACaAAAAmgAAAFoAAABaAAAAWgAAAFoAAABaAA
+        AAWgAAAFoAAABaAAAAWgAAAFoAAABaAAAAWgAAAFoAAABaAAAAWgAAAFoAAABaAAAAWgAAAFoAAABaAA
+        AAWgAAAFoAAABaAAAAWgAAAFkAAACZAAAAk=
+</value>
+  </data>
+  <data name="&gt;&gt;FileStripItem.Name" xml:space="preserve">
+    <value>FileStripItem</value>
+  </data>
+  <data name="&gt;&gt;FileStripItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewToolStripItem.Name" xml:space="preserve">
+    <value>NewToolStripItem</value>
+  </data>
+  <data name="&gt;&gt;NewToolStripItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewFile.Name" xml:space="preserve">
+    <value>CreateNewFile</value>
+  </data>
+  <data name="&gt;&gt;CreateNewFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateNewFolder.Name" xml:space="preserve">
+    <value>CreateNewFolder</value>
+  </data>
+  <data name="&gt;&gt;CreateNewFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ViewStripItem.Name" xml:space="preserve">
+    <value>ViewStripItem</value>
+  </data>
+  <data name="&gt;&gt;ViewStripItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LargeIconsToolStripMenuItem.Name" xml:space="preserve">
+    <value>LargeIconsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;LargeIconsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SmallIconsViewOption.Name" xml:space="preserve">
+    <value>SmallIconsViewOption</value>
+  </data>
+  <data name="&gt;&gt;SmallIconsViewOption.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListViewOption.Name" xml:space="preserve">
+    <value>ListViewOption</value>
+  </data>
+  <data name="&gt;&gt;ListViewOption.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DetailsViewOption.Name" xml:space="preserve">
+    <value>DetailsViewOption</value>
+  </data>
+  <data name="&gt;&gt;DetailsViewOption.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowHiddenItemsToolStripMenuItem.Name" xml:space="preserve">
+    <value>ShowHiddenItemsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ShowHiddenItemsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StripDivider.Name" xml:space="preserve">
+    <value>StripDivider</value>
+  </data>
+  <data name="&gt;&gt;StripDivider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RenameStripItem.Name" xml:space="preserve">
+    <value>RenameStripItem</value>
+  </data>
+  <data name="&gt;&gt;RenameStripItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CutStripItem.Name" xml:space="preserve">
+    <value>CutStripItem</value>
+  </data>
+  <data name="&gt;&gt;CutStripItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CopyStripItem.Name" xml:space="preserve">
+    <value>CopyStripItem</value>
+  </data>
+  <data name="&gt;&gt;CopyStripItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PasteStripItem.Name" xml:space="preserve">
+    <value>PasteStripItem</value>
+  </data>
+  <data name="&gt;&gt;PasteStripItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MoveStripItem.Name" xml:space="preserve">
+    <value>MoveStripItem</value>
+  </data>
+  <data name="&gt;&gt;MoveStripItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DeleteStripItem.Name" xml:space="preserve">
+    <value>DeleteStripItem</value>
+  </data>
+  <data name="&gt;&gt;DeleteStripItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NameLeft.Name" xml:space="preserve">
+    <value>NameLeft</value>
+  </data>
+  <data name="&gt;&gt;NameLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TypeLeft.Name" xml:space="preserve">
+    <value>TypeLeft</value>
+  </data>
+  <data name="&gt;&gt;TypeLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SizeLeft.Name" xml:space="preserve">
+    <value>SizeLeft</value>
+  </data>
+  <data name="&gt;&gt;SizeLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DateLeft.Name" xml:space="preserve">
+    <value>DateLeft</value>
+  </data>
+  <data name="&gt;&gt;DateLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NameRight.Name" xml:space="preserve">
+    <value>NameRight</value>
+  </data>
+  <data name="&gt;&gt;NameRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TypeRight.Name" xml:space="preserve">
+    <value>TypeRight</value>
+  </data>
+  <data name="&gt;&gt;TypeRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SizeRight.Name" xml:space="preserve">
+    <value>SizeRight</value>
+  </data>
+  <data name="&gt;&gt;SizeRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DateRight.Name" xml:space="preserve">
+    <value>DateRight</value>
+  </data>
+  <data name="&gt;&gt;DateRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RightClickNewMenu.Name" xml:space="preserve">
+    <value>RightClickNewMenu</value>
+  </data>
+  <data name="&gt;&gt;RightClickNewMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RightClickCreateFile.Name" xml:space="preserve">
+    <value>RightClickCreateFile</value>
+  </data>
+  <data name="&gt;&gt;RightClickCreateFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RightClickCreateFolder.Name" xml:space="preserve">
+    <value>RightClickCreateFolder</value>
+  </data>
+  <data name="&gt;&gt;RightClickCreateFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RightClickRename.Name" xml:space="preserve">
+    <value>RightClickRename</value>
+  </data>
+  <data name="&gt;&gt;RightClickRename.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RightClickCopy.Name" xml:space="preserve">
+    <value>RightClickCopy</value>
+  </data>
+  <data name="&gt;&gt;RightClickCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RightClickCut.Name" xml:space="preserve">
+    <value>RightClickCut</value>
+  </data>
+  <data name="&gt;&gt;RightClickCut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RightClickPaste.Name" xml:space="preserve">
+    <value>RightClickPaste</value>
+  </data>
+  <data name="&gt;&gt;RightClickPaste.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RightClickMove.Name" xml:space="preserve">
+    <value>RightClickMove</value>
+  </data>
+  <data name="&gt;&gt;RightClickMove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RightClickDelete.Name" xml:space="preserve">
+    <value>RightClickDelete</value>
+  </data>
+  <data name="&gt;&gt;RightClickDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>BusDMS</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
