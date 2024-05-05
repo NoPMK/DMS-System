@@ -6,7 +6,7 @@ DMS Manager is an innovative Windows-based file management application designed 
 **Key Features:**
 
 Dual-Panel Layout:
-Inspired by the renowned Total Commander interface, DualPanel Explorer features a two-pane layout, enabling users to manage files across different directories simultaneously.
+Inspired by the renowned Total Commander interface, DMS Manager features a two-pane layout, enabling users to manage files across different directories simultaneously.
 Each panel operates independently, allowing for multi-tasking without switching windows.
 
 Drag and Drop Functionality:
