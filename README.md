@@ -1,4 +1,4 @@
-# DMS-System
+# DMS Manager
 
 **Overview:**
 DMS Manager is an innovative Windows-based file management application designed for enhanced usability and efficiency. Built using C++ with COM objects and WinForms, this program offers a robust alternative to traditional file explorers with its dual-panel interface inspired by Total Commander. Its advanced features, such as drag-and-drop capabilities, collapsible side panels, structured tree views, and a dynamic output window, make it an essential tool for sophisticated file management.
